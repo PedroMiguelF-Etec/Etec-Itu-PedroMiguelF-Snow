@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 25px 0;
+    background-color: rgb(166, 255, 115);
+}
+
+.logo{
+    
+}
+.logo h2{
+    font-weight: normal;
+    font-size: 23px;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+nav.menu-desktop li.selected{
+    font-weight: normal; 
+    text-decoration: underline;
+}
+.menu-desktop{
+    float: right;
+}
+nav.menu-desktop ul{
+    position: relative;
+    top: 8px;
+}
+nav.menu-desktop li{
+    padding: 0 10px;
+    font-weight: lighter;
+    display: inline-block;
+}
+nav.menu-desktop a{
+    color: white;
+    text-decoration: none;
+}
+
+/*menu mobile*/
+nav.menu-mobile{
+    display: none;
+    float: right;
+}
+

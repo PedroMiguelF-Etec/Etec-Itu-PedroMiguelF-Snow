@@ -1,0 +1,29 @@
+body{
+    background-image: url("../Img/Hatsune Miku.png");
+    background-color: black;
+    background-size: cover;
+    background-position-x: -10100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.TITULO{
+    color: azure;
+}
+.Texto{
+    color: #86cecb;
+}
+.BarBotton{
+    bottom: 0;
+    color: #86cecb;
+    background-color: #100e11;
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px 0px 7px 0px;
+    text-align: center;
+}
+.TextBorder{
+    margin-left: -1640px;
+}

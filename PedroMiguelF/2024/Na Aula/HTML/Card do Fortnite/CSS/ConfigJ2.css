@@ -1,0 +1,33 @@
+body{
+    background-color: #000;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    border: 10px;
+    width: 250px;
+    padding-bottom: 40px;
+}
+.p1{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p2{
+    color: #000;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+    
+
+.fieldsetBG{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 15px;
+    border-bottom: 0;
+}

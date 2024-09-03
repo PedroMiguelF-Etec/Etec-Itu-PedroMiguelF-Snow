@@ -1,0 +1,44 @@
+body {
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    margin-top: 1% ;
+    margin-left: 35%;
+}
+
+p{
+    margin-top: 1%;
+    font-size: 35px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.fundo{
+    background-color: rgb(255, 110, 110);
+    width: 100px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1%;
+    border-width: 0;
+    
+}
+
+.fundo div{
+    text-align: center;
+}
+
+.fundo h1{
+    font-family: "Montserrat";
+    font-size: 45px;
+}
+
+button{
+    width: 15%;
+    font-size: 100%;
+    font-family: "Montserrat";
+}
+.palavra{
+    
+}

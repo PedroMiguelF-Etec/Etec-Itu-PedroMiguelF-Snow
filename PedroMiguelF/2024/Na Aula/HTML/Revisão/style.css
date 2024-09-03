@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white !important;
+}
+a{
+    color: white;
+    font-style: normal;
+    font-stretch: normal;
+}
+ul{
+    color: white;
+}

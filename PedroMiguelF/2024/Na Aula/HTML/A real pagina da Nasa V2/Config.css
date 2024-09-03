@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: black;
+    background-image: url(Img/Fundo.jpg);
+    background-size: auto;
+    
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin-top: -7px;
+    padding: 25px;
+    background-color: rgb(0, 0, 0);
+    border-width: 0;
+}
+
+.cabeça{
+    text-align: left;
+}
+
+img{
+    width: 40%;
+    margin-top: -10px;
+}
+
+.titulo{
+    font-size: 150%;
+}
+
+.tema{
+    font-size: 120%;
+}
+
+.Corpo div{
+    margin-bottom: 1%;
+}
+
+.tempo{
+    color: red;
+    margin-top: 10px;
+}
+
+.dis{
+    color: white;
+    font-size: medium;
+}

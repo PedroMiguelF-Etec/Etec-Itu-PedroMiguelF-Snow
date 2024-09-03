@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidade da Tecnologia</title>
+    </head>
+    <body>
+        <div>
+            <h1 id="title"> 
+                Novidade da Tecnologia
+            </h1>
+            <p id="subtitulo"> novas tendencias tecnologicas que prometem mudar a inovar estão chegando</p><br>
+        </div>
+
+
+    <fieldset class="grupo"><legend>Menu Princial</legend>
+        <div class="campo">
+            <label for="Nome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome:</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+
+        <div class="campo">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="genero">
+            <label for="genero"><strong>Qual o seu Genero?</strong></label>
+            <label>
+                <input type="radio" name="genero" valure="Masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" name="genero" valure="Feminino">Feminino
+            </label>
+            <label>
+                <input type="radio" name="genero" valure="Prefiro não dizer">Prefiro não dizer
+            </label>
+            <label>
+                <input type="radio" name="genero" valure="Sacola de Supermercado">Sacola de Supermercado
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="dtnasc"><strong>Data de Nacimento</strong></label>
+            <input type="date" name="dtnasc" id="dtnasc" min="1920-01-01" max="2024-01-01">
+        </div>
+
+        <div class="campo">
+            <label for="senha"><strong>Senha:</strong></label>
+            <input type="password" name="senha" id="senha" required>
+        </div>
+    </fieldset>
+    <fieldset class="grupo"><legend>Endereço dp Usuário</legend>
+        <div class="campo">
+            <label for="logadouro"><strong>Tipo Logadouro</strong></label>
+            <select id="logadouro" required>
+                <option selected disabled value="">selecione</option>
+                <option>Avenida</option> 
+                <option>Rua</option> 
+                <option>Estrada</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="endereço"><strong>Endereço</strong></label>
+            <input type="text" name="endereço" id="endereço" required>
+            <label for="numero"><strong>Número</strong></label>
+            <input type="text" name="numero" id="numero" required>
+            <label for="Cidade"><strong>Cidade</strong></label>
+            <input type="text" name="Cidade" id="Cidade" required>
+
+            <select id="estado" required>
+                <option selected disabled value="">Selecione</option>
+                <option>SP</option>
+                <option>RJ</option>
+                <option>MG</option>
+                <option>TG</option>
+                <option>BH</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <fieldset class="grupo"><legend> Mensagem do Usuário</legend>
+        <div class="campo">
+            <label for="Mensagem"><strong>Descreva sobre as informações desejadas o mais detalhado possivel</strong></label>
+            <br>
+
+            <textarea rows="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+        </div>
+        <button class="botão" type="button" onsubmit="">Enviar</button>
+    </fieldset>
+    
+    </body>
+</html>
+
+
